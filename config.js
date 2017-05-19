@@ -5,7 +5,7 @@
 
 function homethingbotConfig() {
 
-this.homethingapi = "https://homethingapi.xangnam.com/homething/fcm";
+this.homethingapi = "http://homething:3000/fcm";
 this.fcm_secret = "eyJ1YWRtaW4iOiJhZG1pbiIsInBhZG1pbiI6ImFkbWluIiwiaWF0IjoxNDkyNzUyOTAwLCJleHAiOjE0OTI4MzkzMDB9";
 }
 
