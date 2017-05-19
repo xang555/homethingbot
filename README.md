@@ -1,3 +1,3 @@
 # homethingbot
 
-bot for listen smart device send to tification to firebase
+bot for listen smartdevice send alert notification to firebase
