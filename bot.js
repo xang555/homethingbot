@@ -32,15 +32,13 @@ function alertbot() {
                SendAlert(snapshot.val())
                    .then(function (body) {
                        console.log(body);
-                       if (!_.isEqual(body.err,1)){
 
-                           ref.child(snapshot.key).remove()
-                               .then(function () {
-                                   console.log('delete gas alert successfully');
-                               }).catch(function (err) {
-                                    console.log(err);
-                                });
-                       }
+                       ref.child(snapshot.key).remove()
+                           .then(function () {
+                               console.log('delete gas alert successfully');
+                           }).catch(function (err) {
+                           console.log(err);
+                       });
 
                    })
                    .catch(function (err) {
