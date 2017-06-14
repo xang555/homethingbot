@@ -62,7 +62,7 @@ function alertbot() {
                method: 'POST',
                uri: conf.homethingapi,
                headers:{
-                   'Authorization': conf.fcm_secret,
+                   'Authorization': conf.fcm_secret
                },
                form: {
                    'sdid': $sdid
